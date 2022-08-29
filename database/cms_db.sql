@@ -156,9 +156,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `password`, `type`, `branch_id`, `date_created`) VALUES
-(1, 'Administrator', '', 'admin@admin.com', '0192023a7bbd73250516f069df18b500', 1, 0, '2020-11-26 10:57:04'),
-(2, 'Coco', 'Martin', 'coco@sample.com', '827ccb0eea8a706c4c34a16891f84e7b', 2, 1, '2020-11-26 11:52:04'),
-(3, 'Cardo', 'Dalisay', 'cardo@sample.com', '827ccb0eea8a706c4c34a16891f84e7b', 2, 4, '2020-11-27 13:32:12');
+(1, 'Administrator', '', 'admin@admin.com', 'f925916e2754e5e03f75dd58a5733251', 1, 0, '2020-11-26 10:57:04'),
+(2, 'Coco', 'Martin', 'coco@sample.com', 'f925916e2754e5e03f75dd58a5733251', 2, 1, '2020-11-26 11:52:04'),
+(3, 'Cardo', 'Dalisay', 'cardo@sample.com', 'f925916e2754e5e03f75dd58a5733251', 2, 4, '2020-11-27 13:32:12');
 
 --
 -- Indexes for dumped tables
